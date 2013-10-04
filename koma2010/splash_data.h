@@ -1,0 +1,6 @@
+#ifndef SPLASH_DATA
+#define SPLASH_DATA
+
+#define MAX_SPLASH 120
+
+#endif SPLASH_DATA

@@ -1,0 +1,13 @@
+#ifndef GAME_DATA_H
+#define GAME_DATA_H
+
+enum GAME_STATE{
+	ST_MENU,
+	ST_TUTORIAL,
+	ST_TAP,
+	ST_REPLAY,
+	ST_RESULT,
+	ST_END
+};
+
+#endif GAME_DATA_H

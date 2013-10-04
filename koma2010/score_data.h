@@ -1,0 +1,9 @@
+#ifndef SCORE_DATA
+#define SCORE_DATA
+
+#define SCORE_CLEAR 500
+#define SCORE_SHOT  100
+#define SCORE_COIN 100
+#define SCORE_CLEARCOIN 300
+
+#endif	SCORE_DATA

@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libcpp">
+      <UniqueIdentifier>{62abac45-2dc0-4fd5-9c78-499aa50eb5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libh">
+      <UniqueIdentifier>{8ac9d7ce-45be-4458-8177-e7a9cec890a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{0b2bdefb-f095-4405-b0e7-4d2b31a25e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="setting">
+      <UniqueIdentifier>{695691e9-2fee-462a-9bc0-0bb00624adc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DxAudio.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxAudioApi.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxAudioInit.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxAudioLoad.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxGraph.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxGraphApi.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxGraphInit.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxInit.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxShow.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxShowApi.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxShowInit.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DxTime.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap_Proc_Play.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap_Proc_Load.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Play.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Reset.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Proc_Menu.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Proc_Tap.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fader.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Appli.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Num.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DxGraphMatrix.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap_Proc_Draw.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DxBox2D.cpp">
+      <Filter>libcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Statbar.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactListener.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap_Proc_Result.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Proc_Result.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio.h">
+      <Filter>libh</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>libh</Filter>
+    </ClInclude>
+    <ClInclude Include="dx8.h">
+      <Filter>libh</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>libh</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>libh</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>libh</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>libh</Filter>
+    </ClInclude>
+    <ClInclude Include="movie_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="physics.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="player_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="show.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="map_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tap_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tap.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="appli.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="num.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="num_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="contact_listener.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="b2object_states.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="statbar.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="statbar_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="font_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="splash.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="splash_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="score_data.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="var.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stage\1.map">
+      <Filter>map</Filter>
+    </None>
+    <None Include="setup.ini">
+      <Filter>setting</Filter>
+    </None>
+    <None Include="stage\1.arr">
+      <Filter>map</Filter>
+    </None>
+  </ItemGroup>
+</Project>

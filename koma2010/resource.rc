@@ -1,0 +1,126 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "終了(&E)",                    IDM_END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  100, 100, 199, 118
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "起動設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "起動",IDC_RUN,135,98,50,14
+    PUSHBUTTON      "終了",IDC_END,13,98,50,14
+    PUSHBUTTON      "適用",IDC_RELEASE,74,98,50,14
+    CONTROL         "ログを保存",IDC_LOG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,111,50,47,10
+    CONTROL         "ウィンドウモード",IDC_WINDOWMODE_WINDOW,"Button",
+                    BS_AUTORADIOBUTTON,33,27,61,10
+    CONTROL         "フルスクリーン",IDC_WINDOWMODE_FULL,"Button",
+                    BS_AUTORADIOBUTTON,107,27,58,10
+    GROUPBOX        "全般設定",IDC_STATIC,12,8,172,66
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 193
+        BOTTOMMARGIN, 112
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON                    ICON    DISCARDABLE     "icon1.ico"
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
